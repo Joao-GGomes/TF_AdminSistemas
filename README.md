@@ -1,4 +1,4 @@
-Note: this repo stores scripts for students to play with (several mistakes exist)
+Note: this repo stores scripts for students to play with (several errors can be found in the scripts, i.e., credentials)
 
 *Final assignment*
 
