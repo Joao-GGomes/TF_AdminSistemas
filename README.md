@@ -21,3 +21,9 @@ Exercise 2:
 5. delivery the code in a github repo
 
 TIP: https://techcommunity.microsoft.com/blog/azurenetworkingblog/custom-dhcp-support-in-azure/4089674
+
+## Exercício 1 – Notas de segurança
+
+Foram removidas todas as credenciais em texto plano dos ficheiros Terraform e Ansible.
+
+A autenticação na máquina virtual é feita através de chave SSH, seguindo boas práticas de segurança, evitando o uso de passwords diretamente no código.
