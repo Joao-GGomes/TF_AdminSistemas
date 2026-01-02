@@ -103,10 +103,14 @@ resource "azurerm_linux_virtual_machine" "vm" {
   resource_group_name             = azurerm_resource_group.rg.name
   size                            = "Standard_B2S" # Basic VM size
   network_interface_ids           = [azurerm_network_interface.nic.id]
-  disable_password_authentication = false
+  disable_password_authentication = true
   admin_username                  = "azureuser"
-  admin_password                  = "P@sswOrd12345" # **Change this to a strong password and use a variable!**
-
+  
+  admin_ssh_key {
+  username   = "azureuser"
+  public_key = file("~/.ssh/id_rsa.pub")
+  }
+  
   os_disk {
     caching              = "ReadWrite"
     storage_account_type = "Standard_LRS"
