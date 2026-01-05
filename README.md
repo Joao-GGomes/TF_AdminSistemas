@@ -13,6 +13,9 @@ O objetivo deste exercício é:
 
 Foram removidas todas as credenciais em texto plano dos ficheiros Terraform e Ansible. Foi garantido a funcionalidade do `index.html`.
 
+Exercício 2
+Link para o repositório do exercício 2:
+https://github.com/AndreSilva72/TF_DHCP_Azure/
 
 
 
