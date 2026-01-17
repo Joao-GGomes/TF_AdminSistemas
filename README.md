@@ -1,3 +1,5 @@
+André Silva 126960 João Gomes 126940
+
 Exercício 1
 
 A autenticação na máquina virtual é feita através de chave SSH, seguindo boas práticas de segurança, evitando o uso de passwords diretamente no código.
